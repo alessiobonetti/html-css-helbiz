@@ -5,6 +5,8 @@ body {
 a {
   text-decoration: none;
 }
+
+/* list */
 .list-inline {
   list-style: none;
 }
@@ -12,20 +14,37 @@ a {
   display: inline-block;
 }
 
+/* clearbox */
 .clear_box {
   content: "";
   display: table;
   clear: both;
 }
 
+/* title */
 h1 {
   font-size: 3rem;
   color: #fff;
 }
 
+/* text */
+.txt_centre {
+  text-align: center;
+}
+
+/* margins padding */
 .mrg_top_20 {
   margin-top: 20px;
 }
+
+.mrg_bottom_40 {
+  margin-bottom: 40px;
+}
+
+.mrg_top_100 {
+  margin-top: 100px;
+}
+
 
 /* HEADER */
 
@@ -91,7 +110,6 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
   width: 100%;
  }
 
@@ -104,4 +122,20 @@ h1 {
 
 .hero_title .row img {
   max-width: 150px;
+}
+
+.google_play {
+  margin-left: 25px;
+}
+
+/* MAIN */
+.img_bikes_logo {
+  max-width: 200px;
+}
+
+.img_bikes {
+  max-width: 500px;
+}
+.main_bike a {
+  color: blue;
 }
