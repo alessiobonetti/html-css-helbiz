@@ -96,8 +96,3 @@ h1 {
 .hero_title .row img {
   max-width: 150px;
 }
-
-.app_store a {
-  display: inline-block;
-  text-align: right;
-}
