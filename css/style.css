@@ -137,14 +137,16 @@ h1 {
   max-width: 45%;
 }
 .img_monopattino{
-  max-width: 90%
+  max-width: 90%;
 }
 .main_bike a {
   color: blue;
+  display: block;
 }
 
 @media screen and (max-width: 768px) {
   .img_bike  {
-    max-width: 85%;
+    max-width: 86%;
+    
   }
 }
