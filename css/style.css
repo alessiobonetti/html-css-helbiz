@@ -12,6 +12,15 @@ a {
   display: inline-block;
 }
 
+h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.mrg_top_20 {
+  margin-top: 20px;
+}
+
 /* HEADER */
 
 /* header top */
@@ -69,4 +78,26 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.hero_title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+ }
+
+.hero_title p {
+  color: #fff;
+}
+
+.hero_title .row img {
+  max-width: 150px;
+}
+
+.app_store a {
+  display: inline-block;
+  text-align: right;
 }
