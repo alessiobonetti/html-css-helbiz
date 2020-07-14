@@ -12,6 +12,12 @@ a {
   display: inline-block;
 }
 
+.clear_box {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 h1 {
   font-size: 3rem;
   color: #fff;
@@ -91,6 +97,9 @@ h1 {
 
 .hero_title p {
   color: #fff;
+}
+.hero_title .row {
+  position: relative;
 }
 
 .hero_title .row img {
